@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+*{
+    padding: 0px;
+    margin: auto;
+}
+
+ul{
+    background-color: rgb(59, 56, 56);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+ul li{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+ul li:hover{
+    background-color: red;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+.pt{   
+    background-image:url("../images/مجموعة\ لغات\ برمجة.png");
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+.text-muted:hover{
+    background-color: rgb(238, 13, 13);
+    border-radius: 50px;
+    transform: translateX(-5px);
+   
+
+}
+.card:hover{
+    box-shadow: 3px 3px 10px rgb(176, 176, 233);
+    transform: translateX(5px);
+    transition: 0.5s;
+    background-color: rgb(94, 82, 82);
+    color: white;
+}
+.user{
+    font-family: 'Cairo', sans-serif;
+    color: red;
+    text-align: center;
+}
+.car{
+    width: 600px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.contact-us{
+    width: 600px;
+    margin: 50px 500px;
+    margin-bottom: 20px;
+}
+.form{
+    width: 400px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: auto;
+}
+.textarea{
+    width: 400px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin: auto;
+}
+.info{
+    background-color: rgb(247, 34, 34);
+    color: white;
+    width: 220px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.footer .inner-footer ul li{
+    text-decoration: none;
+    color: white;
+}
+.footer .inner-footer ul li:hover{
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
